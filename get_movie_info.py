@@ -11,7 +11,7 @@ with open("films.txt") as file:
     films = file.readlines()
 films_cleaned = [clean_movie_title(title) for title in films]
 container, rest = [], []
-url = "http://www.omdbapi.com/?t=%s&apikey=6fb86963"
+url = "http://www.omdbapi.com/?t=%s&apikey=******"
 
 
 while films_cleaned:
